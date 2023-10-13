@@ -52,9 +52,13 @@ const Banner = () => {
             </motion.div>
 
             <p className="mb-8 max-w-lg mx-auto lg:mx-0 ">
-              Computer Engineering Student, Full stack Developer
+              Computer Engineering Student And Full stack Developer
               <br />
               PhP, JavaScript, SqlServer, ReactJs.
+              <br/>
+              Agile, TDD, BDD.
+              <br/>
+              Git, GitHub, Docker.
             </p>
             <div
               className=" flex max-w-max gap-x-6 items-center mb-12 
