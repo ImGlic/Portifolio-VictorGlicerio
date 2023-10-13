@@ -30,7 +30,7 @@ const Nav = () => {
               <BiUser/>
             </Link>
 
-            <Link to='services'
+            {/* <Link to='services'
              activeClass='active'
              smooth={true}
              spy={true}
@@ -52,7 +52,7 @@ const Nav = () => {
             spy={true}
             classname='cursor-pointer w-[60px] h-[6-px] flex items-center justify-center'>
               <BsChatSquareText/>
-            </Link>
+            </Link> */}
           </div>
         </div>
     </nav>
