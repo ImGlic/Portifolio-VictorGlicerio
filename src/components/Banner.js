@@ -54,7 +54,7 @@ const Banner = () => {
             <p className="mb-8 max-w-lg mx-auto lg:mx-0 ">
               Computer Engineering Student And Full stack Developer
               <br />
-              PhP, JavaScript, SqlServer, ReactJs.
+              PhP, JavaScript, SqlServer, ReactJs, Python, Django.
               <br/>
               Agile, TDD, BDD.
               <br/>
@@ -65,9 +65,7 @@ const Banner = () => {
                  mx-auto lg:mx-0"
             >
               <button className="btn btn-lg">Entre em contato</button>
-              <a href="#" className="text-gradient  gap-x-4 btn-link">
-                Meu Portifólio
-              </a>
+              
             </div>
 
             {/*Redes Sociais*/}
