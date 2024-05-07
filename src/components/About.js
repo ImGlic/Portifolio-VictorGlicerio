@@ -28,7 +28,7 @@ const About = () => {
             </p>
           </div>
           {/*stats*/}
-          <div className="flex gap-x-6 lg:gap-x-10 mb-12 ">
+          <div className="flex gap-x-6 lg:gap-x-10 mb-5 mt-3 ">
             <div>
               <div className="text-[40px]  text-gradient mb-2 font-primary ">
                 +{inView ? <CountUp start={0} end={3} duration={5} /> : null}

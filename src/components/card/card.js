@@ -26,7 +26,9 @@ export default function Card(props) {
             </div>
 
             <div className="flex justify-center mb-4">
-                <button className="btn btn-lg">Conhecer Projeto</button>
+                <a href={link} target="_blank" >
+                    <button className="btn btn-lg">Conhecer Projeto</button>
+                </a>
             </div>
             <div>
 

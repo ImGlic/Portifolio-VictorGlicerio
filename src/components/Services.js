@@ -6,14 +6,14 @@ import ImageFuzzy from "../assets/logo-fuzzy.png";
 
 const Services = () => {
   return (
-    <div className='section' id='services'>
-      <div className="container mx-auto">
+    <div className='div' id='services'>
+      <div className="container mx-auto ">
 
         <div className="flex-1">
           <h2 className="h2 text-gradient">Projects</h2>
         </div>
 
-        <div className='flex justify-evenly '>
+        <div className=' flex flex-wrap justify-evenly items-center gap-2 mt-10'>
           <Card
             title="Tutor Inteligente"
             images={ImageTutor}

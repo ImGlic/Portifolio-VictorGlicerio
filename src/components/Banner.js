@@ -16,7 +16,7 @@ import { Spa } from "@mui/icons-material";
 const Banner = () => {
   return (
     <section
-      className="min-h-[85vh] lg:min-h-[78vh] flex justify-center items-center"
+      className="min-h-[85vh] lg:min-h-[78vh] flex justify-center items-center mt-8"
       id="home"
     >
       <div className="container max-auto lg:flex justify-center">
@@ -29,7 +29,7 @@ const Banner = () => {
               initiol="hidden"
               whileInView={"show"}
               viewport={{ onde: false, amount: 0.7 }}
-              className="text-[55px] font-bold "
+              className="text-[55px] font-bold mb-2"
             >
               VICTOR <span>GLICÉRIO</span>
             </motion.h1>
@@ -39,10 +39,10 @@ const Banner = () => {
               initiol="hidden"
               whileInView={"show"}
               viewport={{ onde: false, amount: 0.7 }}
-              className="mb-6 txt-[36px] lg:text-[60px] font-secondary font-semibold uppercase
+              className="mb-6 txt-[50px] lg:text-[60px] font-secondary font-semibold uppercase
               leading-[1]"
             >
-              <span className="mr-2">I am a </span>
+              <span className="mr-2 mt-2">I am a</span>
               <TypeAnimation
                 sequence={["Full Stack Developer", 500]}
                 color="#0a0a0a"
@@ -70,16 +70,16 @@ const Banner = () => {
 
             {/*Redes Sociais*/}
             <div className="flex text-[30px] gap-y-5 gap-x-6 max-w-max mx-auto lg:mx-0">
-              <a href="https://instagram.com/imglic?igshid=YmMyMTA2M2Y=">
+              <a target="_blank" href="https://instagram.com/imglic?igshid=YmMyMTA2M2Y=">
                 <FaInstagram />
               </a>
-              <a href="https://www.twitter.com/im_glic">
+              <a target="_blank" href="https://www.twitter.com/im_glic">
                 <FaTwitter />
               </a>
-              <a href="https://github.com/ImGlic">
+              <a target="_blank" href="https://github.com/ImGlic">
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/victor-glicério-713a07192/">
+              <a target="_blank" href="https://www.linkedin.com/in/victor-glicério-713a07192/">
                 <FaLinkedin />
               </a>
             </div>
