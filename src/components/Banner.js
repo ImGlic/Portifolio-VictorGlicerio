@@ -1,6 +1,5 @@
 import React from "react";
 //images
-
 import Image from "../assets/avatarVictorRecortado.jpeg";
 //icons
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";

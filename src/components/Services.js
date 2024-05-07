@@ -7,7 +7,7 @@ import ImageFuzzy from "../assets/logo-fuzzy.png";
 const Services = () => {
   return (
     <div className='div' id='services'>
-      <div className="container mx-auto ">
+      <div className="container mx-auto mb-10 ">
 
         <div className="flex-1">
           <h2 className="h2 text-gradient">Projects</h2>
