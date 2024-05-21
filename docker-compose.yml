@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  vitinho_react:
+    container_name: vitinho_react
+    build:
+      context: .
+    ports:
+      - 4002:4002
+
+

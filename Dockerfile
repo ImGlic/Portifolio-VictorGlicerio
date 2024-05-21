@@ -1,20 +1,11 @@
 FROM node:latest
 
-WORKDIR /tmp/react
+COPY ./react_app /react_app
 
-COPY . .
+WORKDIR /react_app
 
-RUN rm -rf node_modules
+EXPOSE 4002
 
-RUN npm install
-
-RUN npm run build 
-
-RUN mkdir -p /var/www/html
-
-RUN mv build/* /var/www/html
-
-
-WORKDIR /
-
-RUN rm -rf /tmp/react
+RUN npm install && \
+    npm run build && \
+    npm start
