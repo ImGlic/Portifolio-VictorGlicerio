@@ -20,7 +20,7 @@ const Work = () => {
             de ser iniciado."
             tecnologiasUsadas="Php, JavaScript, BootStrap, Jquery, Ajax, SQLServer"
             dataInicio="01/07/2023"
-            dataFim="Emprego Atual"
+            dataFim="Atual"
           />
 
           <CardWork
@@ -43,7 +43,7 @@ const Work = () => {
              entre médico e paciente tornando assim o atendimento simples."
             tecnologiasUsadas="C, Arduino, python"
             dataInicio="01/07/2023"
-            dataFim="Emprego Atual"
+            dataFim="Atual"
           />
 
           <CardWork
