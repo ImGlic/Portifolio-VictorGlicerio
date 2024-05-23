@@ -7,5 +7,4 @@ WORKDIR /react_app
 EXPOSE 4002
 
 RUN npm install && \
-    npm run build && \
-    npm start
+    npm run build 
